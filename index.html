@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cole's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="universal.css">
+
+    <script>
+
+
+        function toggleOverhaul()
+        {
+            var element = document.getElementById("Overhaul");
+
+            element.classList.toggle("is-active");
+        }
+
+        function toggleCarbonTracker()
+        {
+            var element = document.getElementById("Carbon Tracker");
+
+            element.classList.toggle("is-active");
+        }
+
+        function toggleGuitarEffects()
+        {
+            var element = document.getElementById("Guitar Effects");
+
+            element.classList.toggle("is-active");
+        }
+
+        function toggleCalculator()
+        {
+            var element = document.getElementById("Calculator");
+
+            element.classList.toggle("is-active");
+        }
+
+        function toggleWebsite()
+        {
+            var element = document.getElementById("Website");
+
+            element.classList.toggle("is-active");
+        }
+
+        function toggleSolitaire()
+        {
+            var element = document.getElementById("Solitaire");
+
+            element.classList.toggle("is-active");
+        }
+
+    </script>
+
+</head>
+<body>
+    <!--Intro Section-->
+    <section class="hero is-white has-text-centered">
+        <div class="hero-body">
+            <div class="container">
+                <div class="column">
+                    <!--Main Title-->
+                    <h1 class="title is-spaced has-text-weight-bold is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-primary">
+                        Hello there, I'm Cole!
+                    </h1>
+                    <h2 class="subtitle is-size-4-desktop has-text-grey-dark">
+                        A Programmer With Passion
+                    </h2>
+                    <p class="has-text-weight-semibold">
+                        I'm a computer science student at Thompson Rivers University! I've been in love with
+                        computers and technology since I was a little kid, and I'm trying to explore as much
+                        of the industry as I can! Though right now my long-term goal is to develop video games.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Avatar Image-->
+        <div class="hero-foot">
+            <img class="avatar" src="Images/unnamed.png">
+        </div>
+    </section>
+
+    <!--Skills Section-->
+<section class="section is-white">
+    <div class="container is-narrow has-text-centered">
+        <div class="columns">
+            <!--Languages Column-->
+            <div class="column">
+                <h1 class="title is-size-4 has-text-centered has-text-primary">
+                    Languages
+                </h1>
+                <h2 class="subtitle" style="padding-top: 1rem; margin-bottom: 1rem">
+                    Here's what I speak
+                </h2>
+
+                <ul>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <!--Tools Column-->
+            <div class="column" style="border-left: 1px solid lightgray; border-right: 1px solid lightgray">
+                <h1 class="title is-size-4 has-text-centered has-text-primary">
+                    Tools
+                </h1>
+                <h2 class="subtitle" style="padding-top: 1rem; margin-bottom: 1rem;">
+                    Currently resisting the urge to add myself
+                </h2>
+
+                <ul>
+                    <li>Unity</li>
+                    <li>IntelliJ</li>
+                    <li>Android Studio</li>
+                    <li>Visual Studio</li>
+                    <li>Rider</li>
+                    <li>WebStorm</li>
+                    <li>Bulma</li>
+                    <li>Gamemaker Studio 2</li>
+
+                </ul>
+            </div>
+
+            <!--Fields Column-->
+            <div class="column">
+                <h1 class="title is-size-4 has-text-centered has-text-primary">
+                    Fields
+                </h1>
+                <h2 class="subtitle" style="padding-top: 1rem; margin-bottom: 1rem">
+                    Fortunately not the sports kind of field
+                </h2>
+
+                <ul>
+                    <li style="padding: 0.3em">Video Game Development</li>
+                    <li style="padding: 0.3em">Mobile Application Development</li>
+                    <li style="padding: 0.3em">Full-Stack Web Development</li>
+                    <li style="padding: 0.3em">Quality Assuarnce Testing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--Portfolio Section-->
+<section class="section is-white">
+    <div class="container is-narrow">
+        <h1 class="title is-spaced is-medium has-text-primary has-text-centered is-size-3">
+            My Portfolio
+        </h1>
+        <h2 class="subtitle is-size-5 has-text-centered">
+            Here's a little bit of what I've been working on...
+        </h2>
+
+        <div class="columns is-multiline is-mobile has-text-centered is-3 my-projects">
+
+            <!--OVERHAUL-->
+            <div class="container column project is-one-third-desktop is-half-tablet is-12-mobile is-paddingless" style="background-image: url('Images/Unity-Logo.jpg'); background-size: cover; border: 1px solid turquoise">
+                <div class="overlay">
+                    <h3 class="is-size-4 has-text-white has-text-primary has-text-weight-bold">Overhaul</h3>
+                    <button class="button" onclick="toggleOverhaul()">VIEW PROJECT</button>
+                    <!--<a href="#">VIEW PROJECT</a>-->
+
+                    <!--OVERHAUL MODAL-->
+                    <div class="modal" id="Overhaul">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Overhaul</p>
+                                <button class="modal-close" aria-label="close" onclick="toggleOverhaul()"></button>
+                            </header>
+                            <section class="modal-card-body has-text-left has-text-black">
+                                <h1 class="has-text-weight-bold is-size-3 has-text-centered">Overhaul</h1>
+                                <p><strong>Description:</strong> This is a game that I created with 4 other peers for Global Game Jam Kamloops 2020. It was made in 48 hours from 5pm on January 31st to 5pm on February 2nd.
+                                    I did the majority of the scripting, collisions, AI, combat mechanics, and built the level with tilemaps with sketches as a reference.</p>
+                                <p><strong>Languages:</strong> C#</p>
+                                <p><strong>Tools:</strong> Unity</p>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <a class="button is-success" href="https://globalgamejam.org/2020/games/overhaul-6-0">DOWNLOAD</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--CARBON TRACKER-->
+            <div class="container column project is-one-third-desktop is-half-tablet is-12-mobile is-paddingless" style="background-image: url('Images/Android-Logo.jpg'); background-size: cover; border: 1px solid turquoise">
+                <div class="overlay">
+                    <h3 class="is-size-4 has-text-white has-text-primary has-text-weight-bold">Carbon Tracker</h3>
+                    <button class="button" onclick="toggleCarbonTracker()">VIEW PROJECT</button>
+                    <!--<a href="#">VIEW PROJECT</a>-->
+
+                    <!--CARBON TRACKER MODAL-->
+                    <div class="modal" id="Carbon Tracker">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Carbon Tracker</p>
+                                <button class="modal-close" aria-label="close" onclick="toggleCarbonTracker()"></button>
+                            </header>
+                            <section class="modal-card-body has-text-left has-text-black">
+                                <h1 class="has-text-weight-bold is-size-3 has-text-centered">Carbon Tracker</h1>
+                                <p><strong>Description:</strong> This is my final group project for my Mobile Application Development course done with two other peers. We set out to make an intuitive way for
+                                    users to stay accountable for their carbon footprint. The assignment was handed in on November 27th, 2019 but I have continued to make small changes.</p>
+                                <p><strong>Languages:</strong> Java, XML</p>
+                                <p><strong>Tools:</strong> Android Studio</p>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <a class="button is-success" href="https://drive.google.com/file/d/1hxfdx7FxhkU7ZGUwTUP4zSwqYuKPMxGy/view">DOWNLOAD</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--GUITAR EFFECTS CANADA WEBSITE-->
+            <div class="container column project is-one-third-desktop is-half-tablet is-12-mobile is-paddingless" style="background-image: url('Images/HTML5-Logo.jpg'); background-size: cover; border: 1px solid turquoise">
+                <div class="overlay">
+                    <h3 class="is-size-4 has-text-white has-text-primary has-text-weight-bold">Guitar Effects Canada Website</h3>
+                    <button class="button" onclick="toggleGuitarEffects()">VIEW PROJECT</button>
+                    <!--<a href="#">VIEW PROJECT</a>-->
+
+                    <!--GUITAR EFFECTS MODAL-->
+                    <div class="modal" id="Guitar Effects">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Guitar Effects Canada Website</p>
+                                <button class="modal-close" aria-label="close" onclick="toggleGuitarEffects()"></button>
+                            </header>
+                            <section class="modal-card-body has-text-left has-text-black">
+                                <h1 class="has-text-weight-bold is-size-3 has-text-centered">Guitar Effects Canada Site</h1>
+                                <p><strong>Description:</strong> This is my final project for my web design class. We were tasked with making a website for a small business in the Kamloops area or our hometown.
+                                    I chose to make a website for Guitar Effects Canada in Langley, BC. The project was created in one month, and I learned a lot about website design and development through experimentation.</p>
+                                <p><strong>Languages:</strong> HTML5, CSS3, JavaScript</p>
+                                <p><strong>Tools:</strong> Notepad++</p>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <a class="button is-success" href="https://drive.google.com/file/d/1t3kdEWLgq7fkdC2GBY4Xhs_pnx_O4wp-/view">DOWNLOAD</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--CALCULATOR-->
+            <div class="container column project is-one-third-desktop is-half-tablet is-12-mobile is-paddingless" style="background-image: url('Images/Android-Logo.jpg'); background-size: cover; border: 1px solid turquoise">
+                <div class="overlay">
+                    <h3 class="is-size-4 has-text-white has-text-primary has-text-weight-bold">Calculator</h3>
+                    <button class="button" onclick="toggleCalculator()">VIEW PROJECT</button>
+                    <!--<a href="#">VIEW PROJECT</a>-->
+
+                    <!--CALCULATOR MODAL-->
+                    <div class="modal" id="Calculator">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Calculator</p>
+                                <button class="modal-close" aria-label="close" onclick="toggleCalculator()"></button>
+                            </header>
+                            <section class="modal-card-body has-text-left has-text-black">
+                                <h1 class="has-text-weight-bold is-size-3 has-text-centered">Calculator</h1>
+                                <p><strong>Description:</strong> A basic calculator made in my mobile app development course. It adds, subtracts, multiplies, and divides. It's capable of using decimal numbers and can
+                                compensate for large numbers by lowering the font size.</p>
+                                <p><strong>Languages:</strong> Java, XML</p>
+                                <p><strong>Tools:</strong> Android Studio</p>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <a class="button is-success" href="https://drive.google.com/open?id=1UJUmMknxQI4ZWDUjYzHrgdlKc4mq-I3g">DOWNLOAD</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--THIS WEBSITE-->
+            <div class="container column project is-one-third-desktop is-half-tablet is-12-mobile is-paddingless" style="background-image: url('Images/HTML5-Logo.jpg'); background-size: cover; border: 1px solid turquoise">
+                <div class="overlay">
+                    <h3 class="is-size-4 has-text-white has-text-primary has-text-weight-bold is-centered">This Website</h3>
+                    <button class="button" onclick="toggleWebsite()">VIEW PROJECT</button>
+                    <!--<a href="#">VIEW PROJECT</a>-->
+
+                    <!--THIS WEBSITE MODAL-->
+                    <div class="modal" id="Website">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Portfolio Website</p>
+                                <button class="modal-close" aria-label="close" onclick="toggleWebsite()"></button>
+                            </header>
+                            <section class="modal-card-body has-text-left has-text-black">
+                                <h1 class="has-text-weight-bold is-size-3 has-text-centered">Portfolio Website</h1>
+                                <p><strong>Project Type:</strong> Personal</p>
+                                <p><strong>Description:</strong> This website was created from scratch as an online portfolio and landing page. From design to the finished product, the project took four days to
+                                    complete.</p>
+                                <p><strong>Languages:</strong> HTML5, CSS3, JavaScript</p>
+                                <p><strong>Tools:</strong> WebStorm, Bulma</p>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <p class="has-text-grey-dark">*press f12 to view the code*</p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--SOLITAIRE-->
+            <div class="container column project is-one-third-desktop is-half-tablet is-12-mobile is-paddingless" style="background-image: url('Images/Java-Logo.jpg'); background-size: cover; border: 1px solid turquoise">
+                <div class="overlay">
+                    <h3 class="is-size-4 has-text-white has-text-primary has-text-weight-bold is-centered">Solitaire</h3>
+                    <button class="button" onclick="toggleSolitaire()">VIEW PROJECT</button>
+                    <!--<a href="#">VIEW PROJECT</a>-->
+
+                    <!--SOLITAIRE MODAL-->
+                    <div class="modal" id="Solitaire">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Solitaire</p>
+                                <button class="modal-close" aria-label="close" onclick="toggleSolitaire()"></button>
+                            </header>
+                            <section class="modal-card-body has-text-left has-text-black">
+                                <h1 class="has-text-weight-bold is-size-3 has-text-centered">Solitaire</h1>
+                                <p><strong>Project Type:</strong> Coursework, COMP 2230, Data Structure, Algorithm Analysis, and Program Design</p>
+                                <p><strong>Description:</strong> This solitaire game was created as a mid term for my COMP 2230 to test the class knowledge of implementing Stack and Queue objects. The project was created in
+                                    2 days. The game is stable and functional with only a few technical bugs.</p>
+                                <p><strong>Languages:</strong> Java</p>
+                                <p><strong>Tools:</strong> IntelliJ</p>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <a class="button is-success" href="https://drive.google.com/open?id=1JdY1pBUBncjCSWC1lvAncCCII4bXAaVK">DOWNLOAD</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <!--FOOTER-->
+<section class="footer hero is-primary has-text-centered">
+    <div class="hero-body">
+        <h1 class="is-size-3">Get in contact and let's build something together</h1>
+    </div>
+    <div class="hero-buttons">
+        <p class="field">
+            <a class="button is-medium" href="https://www.linkedin.com/in/cole-horvat-629913173" target="_blank">
+                <span class="icon is-small">
+                    <img src="Images/Linkedin-Logo.png">
+                </span>
+            </a>
+
+            <a class="button is-medium" href="mailto:colehorvat@gmail.com" target="_blank">
+                <span class="icon is-small">
+                    <img src="Images/Mail-Logo.png">
+                </span>
+            </a>
+        </p>
+    </div>
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+.avatar
+{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+body
+{
+    overflow: auto;
+    display: block;
+
+}
+
+html, body
+{
+    height: 100%;
+}
+
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: .75rem;
+}
+
+.project
+{
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    padding-top: 100%;
+}
+
+.overlay a
+{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    text-decoration: none;
+    color: #fff6d1;
+    font-weight: bold;
+}
+
+.overlay:hover
+{
+    padding-top: 20%;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.has-image-centered
+{
+    margin: auto;
+}
+
+
+
